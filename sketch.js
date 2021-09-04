@@ -73,8 +73,7 @@ function draw() {
   // write image() to display the polygon image 
   //use the same x and y position as ball
   
-ball.position.x
-ball.position.y
+image(rock_img,ball.position.x,ball.position.y,30,30)
 
   stroke(0,0,0);
   fill("white");
@@ -133,3 +132,4 @@ function mouseDragged(){
 function mouseReleased(){
   slingShot.fly();
 }
+  
